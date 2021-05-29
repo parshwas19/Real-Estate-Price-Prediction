@@ -31,5 +31,13 @@ Then created an Imputer to perform tasks like: Filling the missing values (with 
 For better evaluation technique I used Cross Validation on Training data.<br/> 
 For selecting a desired model I tried 3 Regression techniques: Linear Regression, Decisin Tree Regressor & Random Forest Regressor. <br/> 
 
-The best model which I got for this dataste with the lowest Mean Square error was Random Forest regression.
+ <b>R square(coefficient of determination) regression score function:-</b>
+Best possible score is 1.0 and it can be negative (because the model can be arbitrarily worse). A constant model that always predicts the expected value of y, disregarding the input features, would get a RSquare score of 0.0.
+  
+ 1. Linear Regression: 0.73
+ 2. Decision Tree regression: 0.77 (This model overfits data)
+ 3. Random Forest Regression: 0.88
+   
+
+The best model which I got for this dataset with the lowest Mean Squared error and Rsquare nearest to 1 is Random Forest regression.
 
